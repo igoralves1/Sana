@@ -1,0 +1,29 @@
+{
+  "completed_chunks": 30,
+  "total_chunks": 30,
+  "total_frames_saved": 1710,
+  "expected_total_frames": 1800,
+  "chunk_size_frames": 60,
+  "fps": 60,
+  "duration_seconds": 30,
+  "last_update": "2026-05-23T20:14:38.186233",
+  "statistics": {
+    "total_time": 1483.0351843833923,
+    "total_time_formatted": "24m 43s",
+    "num_chunks": 30,
+    "avg_chunk_time": 49.31127532323202,
+    "avg_chunk_time_formatted": "49.3s",
+    "fastest_chunk": 48.70663022994995,
+    "slowest_chunk": 53.80747199058533,
+    "avg_frame_time": 0.018954229494284467,
+    "avg_frame_time_formatted": "19.0ms",
+    "avg_gpu": 91.44,
+    "peak_gpu": 100.0,
+    "avg_ram": 80.441,
+    "peak_ram": 82.7,
+    "avg_vram": 52.265472612402625,
+    "peak_vram": 78.868919830706,
+    "estimated_remaining": 0.0,
+    "completion_percent": 100.0
+  }
+}

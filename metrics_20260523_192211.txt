@@ -1,0 +1,15 @@
+============================================================
+SANA VIDEO GENERATION - PERFORMANCE REPORT
+============================================================
+
+Average GPU Usage:  81.8%
+Peak GPU Usage:     100.0%
+Average GPU Memory: 55.6%
+Peak GPU Memory:    95.6%
+Average CPU Usage:  22.7%
+Peak CPU Usage:     58.5%
+Average RAM Usage:  81.9%
+Peak RAM Usage:     95.4%
+Peak Bandwidth:     1.89 MB/s
+
+Total Duration:     104.6 seconds

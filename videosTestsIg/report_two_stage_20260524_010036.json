@@ -1,0 +1,66 @@
+{
+  "timestamp": "2026-05-24T01:00:36.015120",
+  "config": {
+    "image_model_name": "Efficient-Large-Model/SANA1.5_4.8B_1024px_diffusers",
+    "video_model_name": "Efficient-Large-Model/SANA-Video_2B_720p_diffusers",
+    "total_duration_seconds": 10,
+    "fps": 30,
+    "height": 720,
+    "width": 1280,
+    "num_keyframes": 5,
+    "frames_per_keyframe": 60,
+    "image_guidance_scale": 12.0,
+    "image_inference_steps": 100,
+    "video_guidance_scale": 8.0,
+    "video_inference_steps": 50,
+    "seed": 42,
+    "keyframe_prompts": [
+      "Wide shot: F-4 Phantom and MiG-21 jets dogfighting over mountains at sunset. \n            Epic cinematic, 4K, photorealistic, dramatic orange sky, volumetric clouds.",
+      "Close up: F-4 Phantom cockpit view, pilot looking intensely, enemy MiG in crosshairs. \n            Cinematic lighting, detailed cockpit instruments, dramatic.",
+      "Action shot: Missile launching from F-4 Phantom wing, smoke trail, afterburners glowing bright orange. \n            High speed, dramatic motion blur, cinematic.",
+      "Explosion: MiG-21 being struck by missile, massive fireball, debris falling, smoke cloud. \n            Epic destruction, dramatic lighting, cinematic.",
+      "Victory flyby: F-4 Phantom flying away from explosion, sunset in background, contrails. \n            Heroic shot, cinematic, epic atmosphere."
+    ],
+    "motion_prompt": "Camera slowly pans and zooms in smoothly. \n        Clouds drift past in the background. \n        Atmospheric motion, cinematic camera movement, smooth and dramatic.",
+    "output_dir": "two_stage_output",
+    "total_frames": 300
+  },
+  "statistics": {
+    "total_time": 13153.014194011688,
+    "total_time_formatted": "3h 39m",
+    "stage_times": [
+      {
+        "stage": "Stage 1: 4.8B Keyframes",
+        "duration": 12883.056396722794
+      },
+      {
+        "stage": "Stage 2: 2B Animation",
+        "duration": 266.96656560897827
+      },
+      {
+        "stage": "Stage 3: Assembly",
+        "duration": 1.8781630992889404
+      }
+    ],
+    "avg_gpu": 91.69,
+    "peak_gpu": 100.0,
+    "avg_ram": 81.81,
+    "peak_ram": 85.4,
+    "avg_vram": 62.47819419738698,
+    "peak_vram": 71.88247561798443
+  },
+  "metrics_summary": {
+    "gpu_usage": {
+      "avg": 99.7092026664358,
+      "max": 100.0
+    },
+    "gpu_memory": {
+      "avg": 96.66932280559364,
+      "max": 97.57099920260075
+    },
+    "ram_usage": {
+      "avg": 54.699714310449316,
+      "max": 85.4
+    }
+  }
+}
